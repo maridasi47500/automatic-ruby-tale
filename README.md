@@ -1,5 +1,33 @@
 # automatic-ruby-tale
 night &amp; day ruby tale
+
+| il y a  | oui non/quoi |
+| --- | --- |
+| boule de crystal  | non  |
+| art of coding  | non  |
+| fake social network | oui |
+| timestamped items | non |
+| speech to text | non | 
+| text to speech | non |
+| traducteur | non |
+| langue etrangere | non |
+| un script à lancer | non |
+| showcase website d'un metier | non |
+| application d'une entreprise | non |
+| langage musical/lilypond / partitions | non |
+| le temps reel est important | non |
+| gps | non |
+| images creees | non |
+| libraries python/gem rails speciales | non |
+| sessions de entrainement | non |
+| requetes sql | non |
+| css drawn iphone | oui/optional |
+| musician story | oui |
+| voyage | oui |
+
+- what's usual : ajouter des voyages, des informations personnelles
+- unusual : ruby peut ecrire un conte automatique
+
 📞 Night & Day – A Ruby Tale
 Une aventure Rails entre cabine téléphonique, carnet d’adresses et contes de fées urbains.
 🌗 Concept général
