@@ -1,0 +1,25 @@
+<div id="<%= dom_id rubytale %>">
+  <div style="width:100%;height:300px;position:relative;background:blue;color:white;">
+    <%x=(5..10).to_a.sample%>
+    <%x.times do%>
+      <span style="position:absolute;font-size:50;font-weight:900;top: <%=(0..100).to_a.sample%>%;left: <%=(0..100).to_a.sample%>%;">*</span>
+      <%end%>
+    <span style="left:50%;right:500%;position:absolute;vertical-align:middle;font-size:30;">
+    <%= rubytale.title %>
+    </span>
+  </div>
+
+  <div>
+    Il était une fois 
+    dans la région de 
+    <%= rubytale.region.name %>
+    
+    <%= rubytale.person.type.to_s.length > 0 ? "un(e)" + rubytale.person.type : "quelqu'un " %>
+    
+    qui voulait devenir 
+    <%= rubytale.becomestring %>
+
+  </div>
+
+
+</div>

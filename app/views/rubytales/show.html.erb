@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @rubytale %>
+
+<div>
+  <%= link_to "Edit this rubytale", edit_rubytale_path(@rubytale) %> |
+  <%= link_to "Back to rubytales", rubytales_path %>
+
+  <%= button_to "Destroy this rubytale", @rubytale, method: :delete %>
+</div>

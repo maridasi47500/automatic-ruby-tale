@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Rubytales" %>
+
+<h1>Rubytales</h1>
+
+<div id="rubytales">
+  <% @rubytales.each do |rubytale| %>
+    <%= render rubytale %>
+    <p>
+      <%= link_to "Show this rubytale", rubytale %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New rubytale", new_rubytale_path %>

@@ -1,0 +1,37 @@
+<%= form_with(model: rubytale) do |form| %>
+  <% if rubytale.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(rubytale.errors.count, "error") %> prohibited this rubytale from being saved:</h2>
+
+      <ul>
+        <% rubytale.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :title, style: "display: block" %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div>
+    <%= form.label :region_id, style: "display: block" %>
+    <%= form.text_field :region_id %>
+  </div>
+
+  <div>
+    <%= form.label :person_id, style: "display: block" %>
+    <%= form.text_field :person_id %>
+  </div>
+
+  <div>
+    <%= form.label :becomestring, style: "display: block" %>
+    <%= form.text_field :becomestring %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

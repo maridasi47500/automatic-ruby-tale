@@ -1,0 +1,2 @@
+module RubytalesHelper
+end

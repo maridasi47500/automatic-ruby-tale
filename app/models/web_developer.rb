@@ -1,0 +1,2 @@
+class WebDeveloper < Person
+end

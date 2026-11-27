@@ -1,6 +1,7 @@
 # automatic-ruby-tale
 night &amp; day ruby tale
 - des gens doivent faire le sport -projet ensemble
+![awesome tale](tale1.jpg)
 
 
 | il y a  | oui non/quoi |
